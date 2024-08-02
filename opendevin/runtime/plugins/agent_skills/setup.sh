@@ -2,7 +2,7 @@
 
 set -e
 
-OPENDEVIN_PYTHON_INTERPRETER=/home/wb.zhangbinbin05/miniforge3/envs/devin/bin/python
+OPENDEVIN_PYTHON_INTERPRETER=python
 # check if OPENDEVIN_PYTHON_INTERPRETER exists and it is usable
 if [ -z "$OPENDEVIN_PYTHON_INTERPRETER" ] ||  [ ! -x "$OPENDEVIN_PYTHON_INTERPRETER" ]; then
     echo "OPENDEVIN_PYTHON_INTERPRETER is not usable. Please pull the latest Docker image!"
